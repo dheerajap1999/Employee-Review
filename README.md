@@ -15,18 +15,13 @@ Employee review system webapp is an online platform designed to assist companies
 
 To install all the dependences of the project, run the following command:
 
-    git clone https://github.com/shakti1590/employee-review-sys.git
+    git clone https://github.com/dheerajap1999/Employee-Review.git
     npm install
     npm start
 
 
 #### Source Code:
- - Link : https://github.com/shakti1590/employee-review-sys
-
-
-#### Deployment Link:
- - Link : https://employee-review-sys.vercel.app/
-
+ - Link : https://github.com/dheerajap1999/Employee-Review
 
 
 <p align="center">
