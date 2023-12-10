@@ -1,0 +1,10 @@
+FROM node:18.19.0-alpine
+ENV ERS_DB_URI=mongodb+srv://root:root@cluster0.pbwxl9n.mongodb.net/EmployeeReview?retryWrites=true&w=majority
+ENV ERS_SESSION_SECRETE=secrete
+ENV ERS_PORT=5000
+WORKDIR /app
+COPY ./server /app/server
+RUN cd server && \
+    npm install;
+CMD node server/app.js
+EXPOSE 9000
